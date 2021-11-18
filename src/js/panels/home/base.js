@@ -47,7 +47,7 @@ class HomePanelBase extends React.Component {
                             групп</Button>
                     </Div>
                     <Div>
-                        <Button mode="secondary" size="l" stretched={true} onClick={() => this.openPopout()}>Открыть алерт</Button>
+                        <Button mode="secondary" size="l" stretched={true} onClick={() => this.openPopout()}>Открыть Alert</Button>
                     </Div>
                     <Div>
                         <Button mode="secondary" size="l" stretched={true} onClick={() => this.props.openModal("MODAL_PAGE_BOTS_LIST")}>Открыть
